@@ -104,7 +104,6 @@ def step_impl(context, element_name):
 # to get the element id of any button
 ##################################################################
 
-## UPDATE CODE HERE ##
 
 ##################################################################
 # This code works because of the following naming convention:
@@ -132,3 +131,4 @@ def step_impl(context, element_name, text_string):
     )
     element.clear()
     element.send_keys(text_string)
+
